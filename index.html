@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="Pico da Tijuca">
+            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a
+                primeira pista.</p>
+            <button class="btn-proximo" data-proximo="1">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="2">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir para o Amazonas</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.jpg" alt="Amazonas">
+        <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
+        <button class="btn-proximo" data-proximo="5">Seguir pelo rio à esquerda</button>
+        <button class="btn-proximo" data-proximo="6">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida aqui.</p>
+            <button class="btn-proximo" data-proximo="7">Retornar e tentar o outro rio</button>
+            <button class="btn-proximo" data-proximo="8">Continuar</button>
+            </div>
+
+            <div class="passo" id="passo-4">
+               <img src="img/cenario-passo4.jpg" alt="Rio a esquerda"> 
+                <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as incrições que levam à cidade perdida.</p>
+                <button class="btn-proximo" data-proximo="9">Explorar a cidade perdida</button>
+                <button class="btn-proximo" data-proximo="10">Desistir e voltar para casa</button>
+                </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
